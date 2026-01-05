@@ -1,13 +1,11 @@
-*\
-Esse sistema: 
-1. Cadastra produtos;
-2. Salva os dados em arquivo .txt;
-3. Lê os dados salvos;
-4. Analisa o nível de estoque;
-5. Gera relatórios (matriz, tags);
-6. Exporta tudo para Excel;
-7. Funciona por menu interativo no terminal.
-*\
+#Esse sistema: 
+#1. Cadastra produtos;
+#2. Salva os dados em arquivo .txt;
+#3. Lê os dados salvos;
+#4. Analisa o nível de estoque;
+#5. Gera relatórios (matriz, tags);
+#6. Exporta tudo para Excel;
+#7. Funciona por menu interativo no terminal.
 
 import time
 import os
@@ -174,4 +172,5 @@ execution_time = end_time - start_time
 
 if __name__ == "__main__":
     sistema_principal()
+
 
