@@ -23,3 +23,5 @@ print(movieName.isalpha())  # verifica se todos os caracteres são letras
 print(movieName.isdigit())  # verifica se todos os caracteres são dígitos
 print(movieName.center(20, "*"))  # centraliza a string em um campo de 20 caracteres, preenchendo com "*"
 print(movieName.find("u")) # retorna o índice da primeira ocorrência de "u"  
+print(movieName.find("o")) #conta caracteres
+print(movieName.replace("Top", "Best")) #substitui parte da string
